@@ -1,0 +1,25 @@
+{
+  "name": "docker-node",
+  "version": "1.0.0",
+  "description": "Sample Node.JS app to run in a Docker container",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/straube/docker-node.git"
+  },
+  "keywords": [
+    "docker",
+    "node",
+    "sample"
+  ],
+  "author": "Gustavo Straube <gustavo@creativeduo.com.br>",
+  "license": "MIT",
+  "homepage": "https://github.com/straube/docker-node",
+  "dependencies": {
+    "dotenv": "^2.0.0"
+  }
+}
